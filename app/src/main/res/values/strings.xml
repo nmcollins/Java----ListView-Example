@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Picture Viewer</string>
+    <string-array name="Picture_Titles">
+        <item>Chrysanthemum</item>
+        <item>Desert</item>
+        <item>Hydrangeas</item>
+        <item>Jellyfish</item>
+        <item>Koala</item>
+        <item>Lighthouse</item>
+        <item>Penguins</item>
+        <item>Tulips</item>
+    </string-array>
+    <string-array name="Picture_Opinions">
+        <item>Pretty</item>
+        <item>Dry</item>
+        <item>Weird</item>
+        <item>Deadly</item>
+        <item>Furry</item>
+        <item>Bright</item>
+        <item>Funny</item>
+        <item>Pretty</item>
+    </string-array>
+</resources>

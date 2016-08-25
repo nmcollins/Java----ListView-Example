@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- From the instructions: the second(sic:xml file) will consist of an image and text
+     This file is here to meet that requirement -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="80dp"
+    android:background="#000000"
+    >
+    <ImageView
+        android:id="@+id/picture_view"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/chrysanthemum"
+        />
+       <TextView
+        android:id="@+id/picture_title"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+           android:layout_toRightOf="@+id/picture_view"
+           android:text="This is picture view"
+           android:gravity="center"
+           android:textColor="#FFFFFF"
+       />
+      <TextView
+          android:id="@+id/Picture_Opinions"
+          android:layout_width="wrap_content"
+          android:layout_toRightOf="@+id/picture_title"
+          android:layout_height="75dp"
+          android:text="This is opinion"
+          android:gravity="center"
+          android:textColor="#FFFFFF"
+          />
+    <!-- Draw a line between nodes -->
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="2dp"
+              android:background="#FFFFFF"
+              android:layout_below="@+id/picture_view"
+              android:id="@+id/view"> </View>
+
+</RelativeLayout>
